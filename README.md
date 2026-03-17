@@ -7,7 +7,7 @@ SweetCrumb showcases delicious treats, elegant UI, and a smooth user experience�
 
 ## 🌐 Live Demo
 
-👉 <a href="https://sweetcrumb-bakery-website.netlify.app/" target="_blank">Live Demo</a>
+👉 [Live Demo](https://sweetcrumb-bakery-website.netlify.app/)
 
 ---
 
