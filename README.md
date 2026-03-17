@@ -1,15 +1,14 @@
-# SweetCrumb Bakery Website
+# SweetCrumb Patisserie Website
 
-A modern, responsive bakery landing page built with HTML, CSS, Bootstrap, and Lightbox.
+A modern, responsive bakery landing page built with HTML, CSS, Bootstrap, and Lightbox. The site includes a hero carousel, gallery, testimonials, and a styled footer for a fictional bakery brand.
 
 ## Features
 
-- Responsive layout for desktop, tablet, and mobile
-- Glass-style fixed navbar
-- Promotional hero section
+- Responsive design for desktop, tablet, and mobile
+- Fixed glass-style navbar with section links
+- Hero carousel with call-to-action buttons
 - Image gallery with Lightbox preview
-- Customer testimonials section
-- Styled contact footer with social links
+- Testimonials and contact/footer sections
 
 ## Tech Stack
 
@@ -24,33 +23,61 @@ A modern, responsive bakery landing page built with HTML, CSS, Bootstrap, and Li
 ```text
 bakery/
 ├── index.html
-└── assets/
-    ├── bootstrap/
-    ├── css/
-    ├── fonts/
-    └── img/
+├── README.md
+├── .gitignore
+├── assets/
+│   ├── fonts/
+│   │   └── font-awesome.min.css
+│   ├── img/
+│   │   ├── cake1.jpg ... cake18.jpg
+│   │   └── sweetcrumblogo.webp
+├── js/
+│   └── main.js
+└── style/
+    └── css/
+        ├── Pretty-Footer-.css
+        └── styles.css
 ```
 
 ## Run Locally
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/sweetcrumb-bakery-website.git
-   ```
-2. Open the project folder.
+1. Download or clone this project.
+2. Open the `bakery` folder.
 3. Open `index.html` in your browser.
 
-## GitHub Publish (Quick Steps)
+## Push This Project to GitHub
+
+### Existing repository (your current case)
+
+```bash
+git status
+git add -A
+git commit -m "Update bakery website"
+git push -u origin HEAD
+```
+
+`git push -u origin HEAD` pushes to your current branch automatically (`master` or `main`).
+
+### Brand-new repository
 
 ```bash
 git init
-git add .
-git commit -m "Initial release: SweetCrumb Bakery website"
+git add -A
+git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/<your-username>/sweetcrumb-bakery-website.git
+git remote add origin https://github.com/<your-username>/<your-repo-name>.git
 git push -u origin main
 ```
 
-## Author
+If `origin` is already set:
 
-Built by **Your Name**.
+```bash
+git remote set-url origin https://github.com/<your-username>/<your-repo-name>.git
+```
+
+## Pre-Push Checklist
+
+- Open `index.html` once and verify carousel, gallery, and testimonials interactions work.
+- Confirm `js/main.js`, `style/css/styles.css`, and `style/css/Pretty-Footer-.css` are tracked.
+- Run `git status` and ensure only intended files are listed.
+- Confirm your remote is correct with `git remote -v`.
