@@ -7,7 +7,7 @@ SweetCrumb showcases delicious treats, elegant UI, and a smooth user experience�
 
 ## 🌐 Live Demo
 
-👉 [Live Demo](https://sweetcrumb-bakery-website.netlify.app/){:target="_blank"}
+👉 <a href="https://sweetcrumb-bakery-website.netlify.app/" target="_blank">Live Demo</a>
 
 ---
 
@@ -122,5 +122,3 @@ You can add an MIT License file if you want it fully open-source.
 GitHub: [https://github.com/NavHamid](https://github.com/NavHamid)
 
 ---
-
-
