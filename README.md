@@ -103,7 +103,6 @@ Feel free to fork this repository and submit a pull request.
 ## 📄 License
 
 This project is shared for educational and portfolio use.  
-You can add an MIT License file if you want it fully open-source.
 
 ---
 
